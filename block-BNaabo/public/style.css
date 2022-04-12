@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Start of home page*/
+body{
+line-height: 1.5;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+}
+.homepage{
+    text-align: center;
+
+}
+header{
+    background-color: #142044;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.homepage{
+    text-align: center;
+}
+header{
+    background-color: #142044
+;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 40px;
+    text-decoration: none;
+}.home{
+    color: green;
+    margin-right: 20px;
+}
+.blog{
+    color: green;
+    margin-left: 20px;}
+header a{
+    color:#ccc;
+    font-size: 34px;
+    text-decoration: none;
+   }
+.home{
+    color: white;
+    margin: 20px;}
+.blog{
+    color: white;}
+h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.box{    width: 170px;
+    height: 185px;
+    background-color: #99D8CA
+;
+    border: 10px solid #5873E2
+;
+    border-radius: 7px;
+    outline: 7px solid #0D1430
+;
+    box-shadow: 0 0 0 20px #90FFA9
+;
+    margin:40px auto;}
+.common{
+    text-align: center;
+    margin-bottom: 30px;}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#99D8CA;
+    display:inline-block;
+    border: 2px solid black;
+}
+.circle1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#0D1430 ;
+    display:inline-block;
+    border: 2px solid black;}
+.circle2{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #90FFA9
+;
+    display:inline-block;
+    border: 2px solid black;
+}
+.circle3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#5873E2;
+    display:inline-block;
+    border: 2px solid black;
+}
+.marker{
+    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+hr{
+    width: 700px;
+    border-style: dashed;
+    color: darkgray;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.container{
+    width: 660px;
+    border: 2px solid black;
+    margin: 26px auto;
+    font-size: 0;}.child-container{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: #DBE9F4
+;
+    display: inline-block;
+}
+.child-container2{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: #DBE9F4
+;
+    display: inline-block;
+    border: 2px solid black;
+}
+.border-box{
+    box-sizing: border-box;
+}   
+
+/* Start of BLOG-PAGE*/
+h4{
+    font-size: 28px;
+    font-weight: bolder;
+    color: #142044;
+}
+h5{
+    font-size: 18px;
+}button{
+    background-color: rgb(54, 216,54);
+    border-radius: 30px;
+    height: 45px;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    border-style: none;
+}
+.image1{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.containerb{
+    width: 1500px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    
+}
+.child-containerb{
+    width: 600px;
+    height: 350px;
+    margin-right: 35px;
+    display: inline-block;
+}
+.child-container2b{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+}
+.image2
+{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.image3{
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+    }
+.containerc{
+    width: 1500px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 80px;}
+    .child-containerc{
+    width: 600px;
+    height: 350px;
+    margin-right: 35px;
+    display: inline-block;
+}
+.child-containerd{
+    width: 600px;
+    height: 350px;
+    margin-right: 35px;
+    display: inline-block;
+}
+.containerd{
+    width: 1500px;
+    height: 350px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+
+}
+.child-containere{
+    width: 600px;
+    height: 350px;
+    margin-right: 35px;
+    display: inline-block;
+    vertical-align: top;
+}
+.child-containerf{
+    width: 600px;
+    height: 350px;
+    margin-right: 35px;
+    display: inline-block;
+}
+a.l1{
+    color: green;
+    text-decoration :underline;
+    font-size: 20px;
+    font-weight: bolder;
+}
+a.l2{
+    color: green;
+    text-decoration :underline;
+    font-size: 20px;
+    font-weight: bolder;
+}
